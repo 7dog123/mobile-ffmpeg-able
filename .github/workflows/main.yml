@@ -33,5 +33,5 @@ jobs:
          cmake gcc gperf texinfo yasm nasm bison autogen patch
 
       - name: build
-        run: sh -v android.sh --full
+        run: sudo bash --verbose ./android.sh --full
 
